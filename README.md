@@ -12,3 +12,5 @@ Investigaciones Cient ́ıficas, 46022 Valencia, Spain
 ![Alt text](/figures/overview.png "overview")
 
 ![Alt text](/figures/osda_hierarchy.png "osda")
+
+![Alt text](/figures/SHAP_zeolite_cbu.png "shap")
