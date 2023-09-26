@@ -9,4 +9,6 @@ Elton Pan,† Soonhyoung Kwon,‡ Zach Jensen,† Manuel Moliner,¶ Yuriy Roman,
 ¶ Instituto de Tecnolog ́ıa Qu ́ımica, Universitat Politecnica de Valencia-Consejo Superior de
 Investigaciones Cient ́ıficas, 46022 Valencia, Spain
 
-![Alt text](/figures/overview.png "Overview of ZeoSyn dataset")
+![Alt text](/figures/overview.png "overview")
+
+![Alt text](/figures/osda_hierarchy.png "osda")
