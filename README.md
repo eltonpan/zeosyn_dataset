@@ -18,3 +18,39 @@ Each unique synthesis route consists of a **comprehensive set of key synthesis v
 ![Alt text](/figures/osda_hierarchy.png "osda")
 
 ![Alt text](/figures/SHAP_zeolite_cbu.png "shap")
+
+## Setup and installation
+
+Run the following terminal commands 
+
+1. Clone repo to local directory
+
+```bash
+  git clone https://github.com/eltonpan/ZeoSyn_dataset.git
+```
+
+2. Set up and activate conda environment
+```bash
+  cd ZeoSyn_dataset
+```
+```bash
+  conda env create -f env.yml
+```
+```bash
+  conda activate zeosyn
+```
+
+3. Add conda environment to Jupyter notebook
+```bash
+  conda install -c anaconda ipykernel
+```
+```bash
+  python -m ipykernel install --user --name=zeosyn
+```
+
+4. Open jupyter notebooks
+```bash
+  jupyter notebook <notebook_name>.ipynb
+```
+
+make sure the `zeosyn` is the environment under dropdown menu `Kernel` > `Change kernel`
