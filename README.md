@@ -9,8 +9,12 @@ Elton Pan,† Soonhyoung Kwon,‡ Zach Jensen,† Manuel Moliner,¶ Yuriy Roman,
 ¶ Instituto de Tecnolog ́ıa Qu ́ımica, Universitat Politecnica de Valencia-Consejo Superior de
 Investigaciones Cient ́ıficas, 46022 Valencia, Spain
 
-**ZeoSyn** is a comprehensive dataset of **23,925 unique zeolite hydrothermal synthesis routes**, encompassing over 200 zeolite topologies and 900 organic structure-directing agents (OSDAs).
-Each unique synthesis route consists of a **comprehensive set of key synthesis variables**: gel compositions (molar ratios between heteroatoms, mineralizing agents, and water), reaction conditions (crystallization temperature and time), organic structure-directing agent, and resultant zeolite product.
+**ZeoSyn** is a dataset of **23,925 unique zeolite hydrothermal synthesis routes**, encompassing over 200 zeolite topologies and 900 organic structure-directing agents (OSDAs).
+Each unique synthesis route consists of a **comprehensive set of key synthesis variables**:
+1. Gel compositions (molar ratios between heteroatoms, mineralizing agents, and water)
+2. Reaction conditions (crystallization temperature and time)
+3. Organic structure-directing agent
+4. Resultant zeolite product
 
 ![Alt text](/figures/overview.png "overview")
 
