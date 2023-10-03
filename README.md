@@ -58,6 +58,9 @@ Run the following terminal commands
 
 make sure the `zeosyn` is the environment under dropdown menu `Kernel` > `Change kernel`
 
+`visualization.ipynb`: For visualizations of the ZeoSyn dataset
+`classifier.ipynb`: SHAP of zeolite phase predictor model 
+
 # Cite
 If you use this dataset or code, please cite this paper:
 ```
