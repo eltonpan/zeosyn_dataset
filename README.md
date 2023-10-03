@@ -62,11 +62,23 @@ Run the following terminal commands
   jupyter notebook <notebook_name>.ipynb
 ```
 
+
 make sure the `zeosyn` is the environment under dropdown menu `Kernel` > `Change kernel`
+
+
+In the main directory:
 
 `visualization.ipynb`: For visualizations of the ZeoSyn dataset
 
 `classifier.ipynb`: SHAP of zeolite phase predictor model 
+
+The data can be found in `/datasets` directory:
+
+`ZEOSYN.xlsx`: ZeoSyn dataset
+
+`osda_descriptors.csv`: Descriptors of organic structure-directing agents
+
+`zeolite_descriptors.csv`: Descriptors of zeolite frameworks
 
 # Cite
 If you use this dataset or code, please cite this paper:
