@@ -16,10 +16,13 @@ Each unique synthesis route consists of a **comprehensive set of key synthesis v
 3. Organic structure-directing agent
 4. Resultant zeolite product
 
+### Overview of ZeoSyn dataset
 ![Alt text](/figures/overview.png "overview")
 
+### Common organic structure-directing agents in the ZeoSyn dataset
 ![Alt text](/figures/osda_hierarchy.png "osda")
 
+### SHAP analysis revealing the most important synthesis parameters favoring the formation of specific zeolite frameworks and composite building units
 ![Alt text](/figures/SHAP_zeolite_cbu.png "shap")
 
 ## Setup and installation
