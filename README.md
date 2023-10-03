@@ -93,9 +93,12 @@ Run the following terminal commands
   jupyter notebook <notebook_name>.ipynb
 ```
 
-
 make sure the `zeosyn` is the environment under dropdown menu `Kernel` > `Change kernel`
 
+## Getting started
+A demo of loading and accessing key components of the ZeoSyn data can be found in `demo.ipynb`
+
+## Reproducibility
 All visualizations, model training and SHAP analysis in the paper can be reproduced by running the code in the following: 
 
 * `visualization.ipynb`: For visualizations of the ZeoSyn dataset
@@ -107,6 +110,8 @@ The data can be found in `/datasets` directory:
 * **`ZEOSYN.xlsx`: ZeoSyn dataset**
 * `osda_descriptors.csv`: Descriptors of organic structure-directing agents
 * `zeolite_descriptors.csv`: Descriptors of zeolite frameworks
+
+
 
 # Cite
 If you use this dataset or code, please cite this paper:
