@@ -19,6 +19,9 @@ Each unique synthesis route consists of a **comprehensive set of key synthesis v
 ### Overview of ZeoSyn dataset
 ![Alt text](/figures/overview.png "overview")
 
+### Common zeolite frameworks in the ZeoSyn dataset (by pores size)
+![Alt text](/figures/zeo_distribution_by_zeotype_pore "frameworks")
+
 ### Common organic structure-directing agents in the ZeoSyn dataset
 ![Alt text](/figures/osda_hierarchy.png "osda")
 
