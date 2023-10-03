@@ -104,7 +104,7 @@ All visualizations, model training and SHAP analysis in the paper can be reprodu
 
 The data can be found in `/datasets` directory:
 
-* `ZEOSYN.xlsx`: ZeoSyn dataset
+* <span style="color:blue"> `ZEOSYN.xlsx`: ZeoSyn dataset </span>
 * `osda_descriptors.csv`: Descriptors of organic structure-directing agents
 * `zeolite_descriptors.csv`: Descriptors of zeolite frameworks
 
