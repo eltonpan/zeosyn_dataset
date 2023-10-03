@@ -17,15 +17,46 @@ Each unique synthesis route consists of a **comprehensive set of key synthesis v
 4. Resultant zeolite product
 
 ### Overview of ZeoSyn dataset
+(a) Example of a zeolite synthesis route in the
+dataset, consisting of the gel composition, inorganic precursors, reaction conditions, organic
+structure-directing agent (OSDA), and the resultant zeolite framework. Paper metadata of
+the scientific paper containing the synthesis route is also provided. (b) Frequency of elements
+present in the dataset. The values correspond to the log number of synthetic routes with a
+specific element. (c) Total number of synthesis routes of small, medium, large, and extra-
+large pore zeolites extracted from literature across time in the dataset. Distributions of key
+gel composition variables in the dataset, including ratio between (d) heteroatoms, and (e)
+mineralizing agents, metal cations and OSDA ratios (T = ∑
+i ni where ni is the amount of
+the ith heteroatom present in synthesis).
 ![Alt text](/figures/overview.png "overview")
 
 ### Common zeolite frameworks in the ZeoSyn dataset (by pores size)
+Zeolite frameworks can be divided into different categories based on their maximum ring
+size. ZeoSyn contains 5250, 5494, 5769, and 716 synthesis routes for small (8MR), medium
+(10MR), large (12MR), and extra-large pore (>12MR) zeolites, respectively.
 ![Alt text](/figures/zeo_distribution_by_zeotype_pore.png "frameworks")
 
 ### Common organic structure-directing agents in the ZeoSyn dataset
+(a) Hierarchical clustering of the top 50 most frequent OSDAs in the dataset,
+labled with the main classes of molecular structures. Splits are obtained through agglomer-
+ative hierarchical clustering of OSDA Morgan fingerprints. Each OSDA is colored by its
+molecular volume (orange), and median largest included sphere of zeolites formed by the
+OSDA (purple). The concomitant intensities of the colors show a positive correlation be-
+tween the two properties. (b) Positive correlation between zeolite largest included sphere vs.
+OSDA volume. Red points refer to high asphericity, which account for outliers (c) Positive
+correlation between zeolite ring size vs. OSDA volume.
 ![Alt text](/figures/osda_hierarchy.png "osda")
 
 ### SHAP analysis revealing the most important synthesis parameters favoring the formation of specific zeolite frameworks and composite building units
+(a) Framework-level SHAP analysis revealing the top 10 (out of 43) most important
+synthesis parameters favoring the formation of specific frameworks. Each framework belongs
+to 1 out of 3 types of synthesis based on its top synthesis parameters: 1) Gel-dominated syn-
+thesis (CAN, KFI) where most top parameters are inorganic-related, 2) OSDA-dominated
+synthesis (ISV, ITE) where most top parameters are OSDA-related, and 3) balanced syn-
+thesis (IWW, RUT) where even attribution is given to inorganic and OSDA parameters.
+Every point is an individual synthesis colored by the value of synthesis parameter (orange
+and blue colors indicate high and low values, respectively). (b) CBU-level SHAP analysis
+of large CBUs showing OSDA parameters favoring their formation.
 ![Alt text](/figures/SHAP_zeolite_cbu.png "shap")
 
 ## Setup and installation
