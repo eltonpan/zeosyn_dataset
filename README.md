@@ -99,6 +99,12 @@ make sure the `zeosyn` is the environment under dropdown menu `Kernel` > `Change
 A demo of loading and accessing key components of the ZeoSyn data can be found in `demo.ipynb`
 
 ## Reproducibility
+The data can be found in `/datasets` directory:
+
+* **`ZEOSYN.xlsx`: ZeoSyn dataset**
+* `osda_descriptors.csv`: Descriptors of organic structure-directing agents
+* `zeolite_descriptors.csv`: Descriptors of zeolite frameworks
+
 All visualizations, model training and SHAP analysis in the paper can be reproduced by running the code in the following: 
 
 * `visualization.ipynb`: For visualizations of the ZeoSyn dataset
@@ -107,12 +113,6 @@ All visualizations, model training and SHAP analysis in the paper can be reprodu
 (OPTIONAL) SHAP takes a while (~2 hours) to run on 32 CPU cores. To avoid computation of SHAP, you can choose to download and load the precomputed SHAP values:
 1. Download `shap_values.pkl` from [figshare](https://figshare.com/s/5519f7668ff2f631f47f)
 2. Place `shap_values.pkl` in `shap/` directory
-
-The data can be found in `/datasets` directory:
-
-* **`ZEOSYN.xlsx`: ZeoSyn dataset**
-* `osda_descriptors.csv`: Descriptors of organic structure-directing agents
-* `zeolite_descriptors.csv`: Descriptors of zeolite frameworks
 
 
 
