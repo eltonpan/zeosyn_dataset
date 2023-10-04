@@ -14,6 +14,10 @@ Investigaciones Cient ́ıficas, 46022 Valencia, Spain
 2. [Demo notebook](/demo.ipynb)
 3. [ZeoSyn dataset](/dataset/ZEOSYN.xlsx)
 
+### To-do:
+- [ ] Test conda installation on Mac and Windows
+- [ ] Check OSDA and zeolite descriptors have any redundant/data
+
 **[ZeoSyn](/dataset/ZEOSYN.xlsx)** is a dataset of **23,925 unique zeolite hydrothermal synthesis routes**, encompassing over 200 zeolite topologies and 900 organic structure-directing agents (OSDAs).
 Each unique synthesis route consists of a **comprehensive set of key synthesis variables**:
 1. [Gel compositions](#overview-of-zeosyn-dataset) (molar ratios between heteroatoms, mineralizing agents, and water)
@@ -115,7 +119,6 @@ All visualizations, model training and SHAP analysis in the paper can be reprodu
 (OPTIONAL) Computation of SHAP values takes a while (~2 hours to run on 32 CPU cores). To avoid computation of SHAP, you can choose to download and load the precomputed SHAP values:
 1. Download `shap_values.pkl` from [here](https://figshare.com/s/5519f7668ff2f631f47f)
 2. Place `shap_values.pkl` in `shap/` directory
-
 
 
 ## Cite
