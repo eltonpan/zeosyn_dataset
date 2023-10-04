@@ -23,8 +23,7 @@ dataset, consisting of the gel composition, inorganic precursors, reaction condi
 structure-directing agent (OSDA), and the resultant zeolite framework. Paper metadata of
 the scientific paper containing the synthesis route is also provided. (b) Frequency of elements
 present in the dataset. The values correspond to the log number of synthetic routes with a
-specific element. (c) Total number of synthesis routes of small, medium, large, and extra-
-large pore zeolites extracted from literature across time in the dataset. Distributions of key
+specific element. (c) Total number of synthesis routes of small, medium, large, and extra-large pore zeolites extracted from literature across time in the dataset. Distributions of key
 gel composition variables in the dataset, including ratio between (d) heteroatoms, and (e)
 mineralizing agents, metal cations and OSDA ratios (T = ∑
 i ni where ni is the amount of
@@ -42,8 +41,7 @@ size. ZeoSyn contains 5250, 5494, 5769, and 716 synthesis routes for small (8MR)
 labled with the main classes of molecular structures. Splits are obtained through agglomer-
 ative hierarchical clustering of OSDA Morgan fingerprints. Each OSDA is colored by its
 molecular volume (orange), and median largest included sphere of zeolites formed by the
-OSDA (purple). The concomitant intensities of the colors show a positive correlation be-
-tween the two properties. (b) Positive correlation between zeolite largest included sphere vs.
+OSDA (purple). The concomitant intensities of the colors show a positive correlation between the two properties. (b) Positive correlation between zeolite largest included sphere vs.
 OSDA volume. Red points refer to high asphericity, which account for outliers (c) Positive
 correlation between zeolite ring size vs. OSDA volume.
 
