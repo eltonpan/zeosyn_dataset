@@ -13,8 +13,8 @@ Investigaciones Cient ́ıficas, 46022 Valencia, Spain
 Each unique synthesis route consists of a **comprehensive set of key synthesis variables**:
 1. Gel compositions (molar ratios between heteroatoms, mineralizing agents, and water)
 2. Reaction conditions (crystallization temperature and time)
-3. Organic structure-directing agent
-4. Resultant zeolite product
+3. Organic structure-directing agent (SMILES)
+4. Resultant zeolite product (3-letter IZA code)
 
 ### Overview of ZeoSyn dataset
 ![Alt text](/figures/overview.png "overview")
