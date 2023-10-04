@@ -49,8 +49,7 @@ correlation between zeolite ring size vs. OSDA volume.
 ![Alt text](/figures/SHAP_zeolite_cbu.png "shap")
 (a) Framework-level SHAP analysis revealing the top 10 (out of 43) most important
 synthesis parameters favoring the formation of specific frameworks. Each framework belongs
-to 1 out of 3 types of synthesis based on its top synthesis parameters: 1) Gel-dominated syn-
-thesis (CAN, KFI) where most top parameters are inorganic-related, 2) OSDA-dominated
+to 1 out of 3 types of synthesis based on its top synthesis parameters: 1) Gel-dominated synthesis (CAN, KFI) where most top parameters are inorganic-related, 2) OSDA-dominated
 synthesis (ISV, ITE) where most top parameters are OSDA-related, and 3) balanced syn-
 thesis (IWW, RUT) where even attribution is given to inorganic and OSDA parameters.
 Every point is an individual synthesis colored by the value of synthesis parameter (orange
