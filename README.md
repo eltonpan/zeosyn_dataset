@@ -11,10 +11,10 @@ Investigaciones Cient ́ıficas, 46022 Valencia, Spain
 
 **[ZeoSyn](/dataset/ZEOSYN.xlsx)** is a dataset of **23,925 unique zeolite hydrothermal synthesis routes**, encompassing over 200 zeolite topologies and 900 organic structure-directing agents (OSDAs).
 Each unique synthesis route consists of a **comprehensive set of key synthesis variables**:
-1. Gel compositions (molar ratios between heteroatoms, mineralizing agents, and water)
-2. Reaction conditions (crystallization temperature and time)
-3. Organic structure-directing agent (SMILES)
-4. Resultant zeolite product (3-letter IZA code)
+1. [Gel compositions](#overview-of-zeosyn-dataset) (molar ratios between heteroatoms, mineralizing agents, and water)
+2. [Reaction conditions](#overview-of-zeosyn-dataset) (crystallization temperature and time)
+3. [Organic structure-directing agent](#common-organic-structure-directing-agents-in-the-zeosyn-dataset) (SMILES)
+4. [Resultant zeolite product](#common-zeolite-frameworks-in-the-zeosyn-dataset-by-pores-size) (3-letter IZA code)
 
 ### Overview of ZeoSyn dataset
 ![Alt text](/figures/overview.png "overview")
