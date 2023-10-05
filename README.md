@@ -68,6 +68,8 @@ of large CBUs showing OSDA parameters favoring their formation.
 
 ## Setup and installation
 
+The code in this repo has been tested on a Linux machine running Python 3.8.8
+
 Run the following terminal commands 
 
 1. Clone repo to local directory
