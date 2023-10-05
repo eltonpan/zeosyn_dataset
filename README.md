@@ -73,7 +73,7 @@ Run the following terminal commands
 1. Clone repo to local directory
 
 ```bash
-  git clone https://github.com/eltonpan/ZeoSyn_dataset.git
+  git clone https://github.com/eltonpan/zeosyn_dataset.git
 ```
 
 2. Set up and activate conda environment
