@@ -120,6 +120,8 @@ All visualizations, model training and SHAP analysis in the paper can be reprodu
 (OPTIONAL) Computation of SHAP values takes a while (~2 hours to run on 32 CPU cores). To avoid computation of SHAP, you can choose to download and load the precomputed SHAP values:
 1. Download `shap_values.pkl` from [here](https://figshare.com/s/5519f7668ff2f631f47f)
 2. Place `shap_values.pkl` in `shap/` directory
+3. Make sure ```with open('shap/shap_values.pkl', 'rb') as handle:
+    shap_values = pickle.load(handle)``` in `classifier.ipynb` is uncommented
 
 
 ## Cite
