@@ -122,8 +122,8 @@ All visualizations, model training and SHAP analysis in the paper can be reprodu
 2. Place `shap_values.pkl` in `shap/` directory
 3. Make sure 
   ```python 
-  with open('shap/shap_values.pkl', 'rb') as handle:
-      shap_values = pickle.load(handle)
+    with open('shap/shap_values.pkl', 'rb') as handle:
+        shap_values = pickle.load(handle)
   ``` 
   in `classifier.ipynb` is uncommented
 
