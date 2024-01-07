@@ -18,6 +18,7 @@ Investigaciones Cient ́ıficas, 46022 Valencia, Spain
 - [ ] Test conda installation on Mac and Windows
 - [ ] Check OSDA and zeolite descriptors have any redundant/data
 - [ ] Add Bibtex
+- [ ] Add Colab notebook option
 
 **[ZeoSyn](/dataset/ZEOSYN.xlsx)** is a dataset of **23,925 unique zeolite hydrothermal synthesis routes**, encompassing over 200 zeolite topologies and 900 organic structure-directing agents (OSDAs).
 Each unique synthesis route consists of a **comprehensive set of key synthesis variables**:
