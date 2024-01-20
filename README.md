@@ -15,6 +15,7 @@ Investigaciones Cient ́ıficas, 46022 Valencia, Spain
 3. [ZeoSyn dataset](/dataset/ZEOSYN.xlsx)
 
 ### To-do:
+- [ ] Clean and incorporate ZEOSYN-2 with cleaned SMILES
 - [ ] Test conda installation on Mac and Windows
 - [ ] Check OSDA and zeolite descriptors have any redundant/data
 - [ ] Add Bibtex
