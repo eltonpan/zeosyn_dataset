@@ -17,7 +17,7 @@ Investigaciones Cient ́ıficas, 46022 Valencia, Spain
 ### To-do:
 - [ ] Clean and incorporate ZEOSYN-2 with cleaned SMILES
 - [ ] Test conda installation on Mac and Windows
-- [ ] Check OSDA and zeolite descriptors have any redundant/data
+- [x] Check OSDA and zeolite descriptors have any redundant/data
 - [ ] Add Bibtex
 - [ ] Add Colab notebook option
 
