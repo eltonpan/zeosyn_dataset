@@ -1,11 +1,9 @@
-# Code for *ZeoSyn: A Comprehensive Zeolite Synthesis Dataset Enabling Machine-learning Rationalization of Hydrothermal Parameters*
+# Code and dataset for *ZeoSyn: A Comprehensive Zeolite Synthesis Dataset Enabling Machine-learning Rationalization of Hydrothermal Parameters*
 
 Elton Pan,† Soonhyoung Kwon,‡ Zach Jensen,† Mingrou Xie,‡, Rafael Gomez-Bombarelli,† Manuel Moliner,¶ Yuriy Roman,‡ and Elsa Olivetti∗,†
 
 † Department of Materials Science and Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, United States
-
 ‡ Department of Chemical Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, United States
-
 ¶ Instituto de Tecnolog ́ıa Qu ́ımica, Universitat Politecnica de Valencia-Consejo Superior de
 Investigaciones Cient ́ıficas, 46022 Valencia, Spain
 
@@ -14,13 +12,7 @@ Investigaciones Cient ́ıficas, 46022 Valencia, Spain
 2. [Demo notebook](/demo.ipynb)
 3. [ZeoSyn dataset](/dataset/ZEOSYN.xlsx)
 
-### To-do:
-- [ ] Test conda installation on Mac and Windows
-- [x] Check OSDA and zeolite descriptors have any redundant/data
-- [ ] Add Bibtex
-- [ ] Add Colab notebook option
-
-**[ZeoSyn](/dataset/ZEOSYN.xlsx)** is a dataset of **23,925 unique zeolite hydrothermal synthesis routes**, encompassing over 200 zeolite topologies and 900 organic structure-directing agents (OSDAs).
+**[ZeoSyn](/dataset/ZEOSYN.xlsx)** is the largest zeolite synthesis dataset, comprising **23,925 zeolite synthesis routes**, 233 zeolite topologies and 921 organic structure-directing agents (OSDAs).
 Each unique synthesis route consists of a **comprehensive set of key synthesis variables**:
 1. [Gel compositions](#overview-of-zeosyn-dataset) (molar ratios between heteroatoms, mineralizing agents, and water)
 2. [Reaction conditions](#overview-of-zeosyn-dataset) (crystallization temperature and time)
@@ -135,3 +127,9 @@ If you use this dataset or code, please cite this paper:
 ```
 <INSERT BIBTEX HERE>
 ```
+
+### To-do:
+- [ ] Test conda installation on Mac and Windows
+- [x] Check OSDA and zeolite descriptors have any redundant/data
+- [ ] Add Bibtex
+- [ ] Add Colab notebook option
