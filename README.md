@@ -6,7 +6,7 @@ Elton Pan,† Soonhyoung Kwon,‡ Zach Jensen,† Mingrou Xie,‡ Rafael Gomez-B
 
 ### Quick links:
 1. [Setup and installation](#setup-and-installation)
-2. [Demo notebook](/demo.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yUN0HfLVGgvQfThnRSFJjWw1Xwyncg0s?usp=sharing)
+2. [Demo notebook](/demo.ipynb)
 
 3. [ZeoSyn dataset](/dataset/ZEOSYN.xlsx)
 
@@ -104,7 +104,7 @@ The data can be found in `/datasets` directory:
 
 All visualizations, model training and SHAP analysis in the paper can be reproduced by running the code in the following: 
 
-* [`visualization.ipynb`](/visualization.ipynbvisu): For visualizations of the ZeoSyn dataset
+* [`visualization.ipynb`](/visualization.ipynbv) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yUN0HfLVGgvQfThnRSFJjWw1Xwyncg0s?usp=sharing): For visualizations of the ZeoSyn dataset
 * [`classifier.ipynb`](/classifier.ipynb): SHAP of zeolite phase predictor model
 
 (OPTIONAL) Computation of SHAP values takes a while (~2 hours to run on 32 CPU cores). To avoid computation of SHAP, you can choose to download and load the precomputed SHAP values:
