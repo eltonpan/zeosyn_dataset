@@ -6,7 +6,7 @@ Elton Pan,† Soonhyoung Kwon,‡ Zach Jensen,† Mingrou Xie,‡ Rafael Gomez-B
 
 ### Quick links:
 1. [Setup and installation](#setup-and-installation)
-2. [Dataset visualization](/visualization.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yUN0HfLVGgvQfThnRSFJjWw1Xwyncg0s?usp=sharing)
+2. [ZeoSyn dataset visualization](/visualization.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yUN0HfLVGgvQfThnRSFJjWw1Xwyncg0s?usp=sharing)
 3. [Zeolite classifier + SHAP analysis](/classifier.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
 3. [ZeoSyn dataset](/dataset/ZEOSYN.xlsx)
 
