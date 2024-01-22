@@ -4,7 +4,7 @@ from ast import literal_eval
 
 class MorganDictVectorizer(object):
     '''
-    Morgan fingerprint generator for organic molecules Source:https://programtalk.com/vs4/python/hcji/PyFingerprint/PyFingerprint/heteroencoder.py/
+    Morgan fingerprint generator for organic molecules Source: https://programtalk.com/vs4/python/hcji/PyFingerprint/PyFingerprint/heteroencoder.py/
     '''
     def __init__(self, radius=2, augment=None):
         self.radius = radius
