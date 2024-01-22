@@ -23,11 +23,8 @@ dataset, consisting of the gel composition, inorganic precursors, reaction condi
 structure-directing agent (OSDA), and the resultant zeolite framework. Paper metadata of
 the scientific paper containing the synthesis route is also provided. **(b)** Frequency of elements
 present in the dataset. The values correspond to the log number of synthetic routes with a
-specific element. **(c)** Total number of synthesis routes of small, medium, large, and extra-large pore zeolites extracted from literature across time in the dataset. Distributions of key
-gel composition variables in the dataset, including ratio between **(d)** heteroatoms, and **(e)**
-mineralizing agents, metal cations and OSDA ratios (T = ∑
-i ni where ni is the amount of
-the ith heteroatom present in synthesis).
+specific element. **(c)** Total number of synthesis routes of small, medium, large, and extra-large pore zeolites extracted from literature across time in the dataset. Distributions of key gel composition variables in the dataset, including ratio between **(d)** heteroatoms, and **(e)**
+mineralizing agents, metal cations and OSDA ratios (T = ∑i ni where ni is the amount of the ith heteroatom present in synthesis).
 
 ### Zeolite frameworks in the dataset
 ![Alt text](/figures/zeo_distribution_by_zeotype_pore.png "frameworks")
