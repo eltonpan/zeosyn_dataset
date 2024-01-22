@@ -130,3 +130,4 @@ If you use this dataset or code, please cite this paper:
 - [x] Check OSDA and zeolite descriptors have any redundant/data
 - [ ] Add Bibtex
 - [ ] Add Colab notebook option
+- [ ] Add citation sticker
