@@ -12,7 +12,7 @@ Investigaciones Cient ́ıficas, 46022 Valencia, Spain
 2. [Demo notebook](/demo.ipynb)
 3. [ZeoSyn dataset](/dataset/ZEOSYN.xlsx)
 
-**[ZeoSyn](/dataset/ZEOSYN.xlsx)** is the largest zeolite synthesis dataset, comprising **23,925 zeolite synthesis routes**, 233 zeolite topologies and 921 organic structure-directing agents (OSDAs).
+**ZeoSyn** is the largest zeolite synthesis dataset, comprising **23,925 zeolite synthesis routes**, 233 zeolite topologies and 921 organic structure-directing agents (OSDAs).
 Each unique synthesis route consists of a **comprehensive set of key synthesis variables**:
 1. Gel compositions (molar ratios between heteroatoms, mineralizing agents, and water)
 2. Reaction conditions (crystallization/aging temperature and time)
