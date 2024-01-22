@@ -2,10 +2,9 @@
 
 Elton Pan,† Soonhyoung Kwon,‡ Zach Jensen,† Mingrou Xie,‡, Rafael Gomez-Bombarelli,† Manuel Moliner,¶ Yuriy Roman,‡ and Elsa Olivetti∗,†
 
-† Department of Materials Science and Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, United States
-‡ Department of Chemical Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, United States
-¶ Instituto de Tecnolog ́ıa Qu ́ımica, Universitat Politecnica de Valencia-Consejo Superior de
-Investigaciones Cient ́ıficas, 46022 Valencia, Spain
+† MIT Materials Science & Engineering
+‡ MIT Chemical Engineering
+¶ ITQ-UPV
 
 ### Quick links:
 1. [Setup and installation](#setup-and-installation)
