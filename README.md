@@ -3,7 +3,9 @@
 Elton Pan,† Soonhyoung Kwon,‡ Zach Jensen,† Mingrou Xie,‡, Rafael Gomez-Bombarelli,† Manuel Moliner,¶ Yuriy Roman,‡ and Elsa Olivetti∗,†
 
 † MIT Materials Science & Engineering
+
 ‡ MIT Chemical Engineering
+
 ¶ ITQ-UPV
 
 ### Quick links:
