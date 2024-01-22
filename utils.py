@@ -173,7 +173,7 @@ def get_pore_type(pore_size):
         return 'Failed'
     
 def clean_cbus(cbu_str):
-    # This fixes cbus column contains a str representation of list, instead of list itself #
+    # This fixes cbus column contains a str representation of list, instead of list itself
     if type(cbu_str) == str: # if str
         return literal_eval(cbu_str)
     else: # if not str, eg. NaN
@@ -287,3 +287,161 @@ zeo_cols_disc = [
  'isdisordered',
  'isinterrupted',
 ]
+
+cols_to_drop = [
+    'doi',
+    'normed',
+    'seed',
+    'aging_time',
+    'aging_temp',
+    'rotation',
+    'Seed_type',
+    'react_vol',
+    'pH',
+    'osda1',
+    'osda2',
+    'osda3',
+    'product1',
+    'product2',
+    'product3',
+    'precursors',
+    'brands',
+    'Si/Al',
+    'yield',
+    'percent cryst',
+    'crystal size',
+    'micropore volume',
+    'micropore diameter',
+    'bet area',
+    'external surface area',
+    'Notes',
+    'title',
+    'abstract_keywords',
+    'recipe_keywords',
+    'osda1 synonyms',
+    'osda2 synonyms',
+    'osda3 synonyms',
+    'osda1 iupac',
+    'osda2 iupac',
+    'osda3 iupac',
+    'osda1 smiles',
+    'osda2 smiles',
+    'osda3 smiles',
+    'osda1 formula',
+    'osda2 formula',
+    'osda3 formula',
+    'Code1',
+    'Code2',
+    'Code3',
+    'year',
+]
+
+# OSDA features for classification model
+osda_cols = [
+ 'asphericity',
+ 'axes',
+ 'bertz_ct',
+ 'binding',
+ 'eccentricity',
+ 'formal_charge', 
+ 'free_sasa',
+ 'getaway',
+ 'gyration_radius',
+ 'inertial_shape_factor',
+ 'mol_weight',
+ 'npr1',
+ 'npr2',
+ 'num_bonds', 
+ 'num_rot_bonds',
+ 'pmi1',
+ 'pmi2',
+ 'pmi3',
+ 'spherocity_index',
+ 'volume',
+ 'whim',
+]
+
+X_cols = {
+          # Gel composition
+         'Si': 'Si',
+         'Al': 'Al',
+         'P' : 'P',
+         'Na': 'Na',
+         'K' : 'K',
+         'Li': 'Li',
+         'Sr': 'Sr',
+         'Rb': 'Rb',
+         'Cs': 'Cs',
+         'Ba': 'Ba',
+         'Ca': 'Ca',
+         'F' : 'F',
+         'Ge': 'Ge',
+         'Ti': 'Ti',
+         'B' : 'B',
+         'Mg': 'Mg',
+         'Ga': 'Ga',
+         'Zn': 'Zn',
+         'Be': 'Be',
+         'W' : 'W',
+         'Cu': 'Cu',
+         'Sn': 'Sn',
+         'Zr': 'Zr',
+         'V' : 'V',
+         'H2O': 'H$_2$O',
+         'sda1': 'OSDA amount',
+         'OH': 'OH',
+          
+          # Reaction conditions
+         'cryst_time': 'Crystallization time',
+         'cryst_temp': 'Crystallization temp',
+          
+          # OSDA descriptors
+         'osda1_asphericity_mean_0': 'OSDA asphericity',
+         'osda1_axes_mean_0': 'OSDA axis 1',
+         'osda1_axes_mean_1': 'OSDA axis 2',
+         'osda1_formal_charge': 'OSDA charge',
+         'osda1_free_sasa_mean_0': 'OSDA SASA',
+         'osda1_mol_weight': 'OSDA molecular weight',
+         'osda1_npr1_mean_0': 'OSDA NPR 1',
+         'osda1_npr2_mean_0': 'OSDA NPR 2',
+         'osda1_num_rot_bonds_mean_0': 'OSDA rotatable bonds',
+         'osda1_pmi1_mean_0': 'OSDA PMI 1',
+         'osda1_pmi2_mean_0': 'OSDA PMI 2',
+         'osda1_pmi3_mean_0': 'OSDA PMI 3',
+         'osda1_spherocity_index_mean_0': 'OSDA spherocity',
+         'osda1_volume_mean_0': 'OSDA volume',
+}
+
+# Zeolites according to pore size
+s_pore = ['CHA', 'LTA', 'AEI', 'LEV', 'ANA', 'SOD', 'AEN', 'GIS', 'NON', 'AST',
+       'ERI', 'DDR', 'RTH', 'MTN', 'MRT', 'RHO', 'ITE', 'AFX', 'ITW', 'DOH',
+       'AWO', 'RUT', 'MER', 'ABW', 'PHI', 'LOS', 'EDI', 'SAV', 'SAS', 'MTF',
+       'KFI', 'ZON', 'ATN', 'AFN', 'PAU', 'NSI', 'SGT', 'JSW', 'AFV', 'AVL',
+       'SWY', 'UFI', 'ETL', 'APC', 'RTE', 'JBW', 'APD', 'CDO', 'MWF', 'MSO',
+       'SVV', 'AVE', 'IHW', 'UOZ', 'OWE', 'DFT', 'PWN', 'AWW', 'SFW', 'ATT',
+       'LTJ', 'ESV', 'THO', 'LTN', 'EEI', 'POR', 'ACO', 'IRN', 'CAS', 'EAB',
+       'BCT', 'ATV', 'SAT']
+m_pore = ['MFI', 'MWW', 'TON', 'AEL', 'FER', 'MTT', 'MEL', 'STF', '*MRE', 'ITH',
+       'EUO', 'STW', 'SZR', 'AFO', 'STT', 'IMF', 'CSV', 'TUN', 'CGS', 'MFS',
+       'NES', 'STI', 'NAT', 'PON', 'LAU', 'HEU', '*UOE', 'UOS', 'PWW', 'ITR',
+       '-SVR', '-LIT', 'SFF', 'IFW', 'JST', 'PTY', 'SBN', 'SFG', 'RSN', 'VSV',
+       'PWO', 'EWS', 'RRO', 'JRY', 'MVY', 'CGF', 'ETV', 'AHT']
+l_pore = ['*BEA', 'AFI', 'MTW', 'FAU', 'MOR', 'BEC', 'EMT', 'IWR', 'ATO', 'MAZ',
+       '*STO', 'LTL', 'ISV', 'IFR', 'IWW', 'VET', 'ATS', 'OFF', 'MEI', 'GME',
+       'CON', 'BPH', 'SFO', 'MSE', 'CAN', 'UOV', 'IWV', 'SFE', 'ITG', '*-ITN',
+       'EZT', 'AFY', 'AFS', 'AFR', 'ASV', 'SFS', 'SAF', 'SSY', 'SBE', 'EON',
+       'IWS', 'YFI', 'SAO', 'BOG', 'USI', 'DFO', '*SFV', 'BSV', 'CZP', 'RWY',
+       'UWY', 'MOZ', 'GON', 'SOS', 'SSF', 'PUN', 'SOV', 'SOR', 'POS', 'LTF',
+       'SOF', 'JSR']
+xl_pore = ['UTL', 'IRR', '*-SVY', '*CTH', 'ITT', '-ITV', 'CFI', '-CLO', 'VFI',
+       '-IRY', 'IFO', '-IFT', 'SFH', 'SFN', '-IFU', 'ETR', 'DON']
+
+# Small cbus
+small_cbus = [
+            'lov', 'nat', 'vsv', 'mei', 'sti', 'bea', 'bre', 'jbw', 'mtt', 'afi', 'ats', 'bog', 'cas', 'lau', 'rth', 'bik', 'fer', 
+#             'ifw', # not present in df_zeos
+            'abw', 'bph', 'mel', 'mtw', 'non', 'ton', 'aww', 'ddr', 'rte', 'can', 'mso', 'gis', 'mtn', 'atn', 'gme', 'obw', 'phi', 'sod',
+            'd3r', 'd4r', 'd6r', 'd8r']
+
+# Large cbus
+large_cbus = ['rut', 'lev', 'mwf', 'los', 'clo', 'pau', 'ast', 'ave', 'cha', 'doh', 'eab', 'pcr', 'boz', 'lio', 'aft', 'afy', 'lta', 'ltl']
