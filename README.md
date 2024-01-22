@@ -4,18 +4,19 @@ Elton Pan,† Soonhyoung Kwon,‡ Zach Jensen,† Mingrou Xie,‡ Rafael Gomez-B
 
 † MIT Materials Science & Engineering, ‡ MIT Chemical Engineering, ¶ ITQ-UPV
 
-### Quick links:
-1. [Setup and installation](#setup-and-installation)
-2. [ZeoSyn dataset visualization](/visualization.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yUN0HfLVGgvQfThnRSFJjWw1Xwyncg0s?usp=sharing)
-3. [Zeolite classifier + SHAP analysis](/classifier.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
-3. [ZeoSyn dataset](/dataset/ZEOSYN.xlsx)
-
 **ZeoSyn** is a large **zeolite synthesis dataset** comprising **23,925 zeolite synthesis routes**, 233 zeolite topologies and 921 organic structure-directing agents (OSDAs).
 Each unique synthesis route consists of a **comprehensive set of key synthesis variables**:
 1. Gel compositions (molar ratios between heteroatoms, mineralizing agents, and water)
 2. Reaction conditions (crystallization/aging temperature and time)
 3. Organic structure-directing agent (SMILES)
 4. Resultant zeolite product (3-letter IZA code)
+
+### Quick links:
+
+1. [ZeoSyn dataset visualization](/visualization.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yUN0HfLVGgvQfThnRSFJjWw1Xwyncg0s?usp=sharing)
+2. [Zeolite classifier + SHAP analysis](/classifier.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+3. [ZeoSyn dataset](/dataset/ZEOSYN.xlsx)
+4. [Setup and installation](#setup-and-installation) (use of Google Colab is encouraged)
 
 ### Overview of ZeoSyn dataset
 ![Alt text](/figures/overview.png "overview")
