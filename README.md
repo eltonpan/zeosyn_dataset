@@ -32,13 +32,13 @@ mineralizing agents, metal cations and OSDA ratios (T = ∑
 i ni where ni is the amount of
 the ith heteroatom present in synthesis).
 
-### Common zeolite frameworks in the ZeoSyn dataset (by pores size)
+### Zeolite frameworks in the dataset
 ![Alt text](/figures/zeo_distribution_by_zeotype_pore.png "frameworks")
 Zeolite frameworks can be divided into different categories based on their maximum ring
 size. ZeoSyn contains 5250, 5494, 5769, and 716 synthesis routes for small (8MR), medium
 (10MR), large (12MR), and extra-large pore (>12MR) zeolites, respectively.
 
-### Common organic structure-directing agents in the ZeoSyn dataset
+### Organic structure-directing agents in the dataset
 ![Alt text](/figures/osda_hierarchy.png "osda")
 **(a)** Hierarchical clustering of the top 50 most frequent OSDAs in the dataset,
 labled with the main classes of molecular structures. Splits are obtained through agglomer-
@@ -48,7 +48,7 @@ OSDA (purple). The concomitant intensities of the colors show a positive correla
 OSDA volume. Red points refer to high asphericity, which account for outliers **(c)** Positive
 correlation between zeolite ring size vs. OSDA volume.
 
-### SHAP analysis revealing synthesis parameters favoring specific zeolite frameworks and their composite building units
+### SHAP analysis of ZeoSyn reveals synthesis parameters that favor the formation of specific zeolite frameworks and their composite building units
 ![Alt text](/figures/SHAP_zeolite_cbu.png "shap")
 **(a)** Framework-level SHAP analysis revealing the top 10 (out of 43) most important
 synthesis parameters favoring the formation of specific frameworks. Each framework belongs
