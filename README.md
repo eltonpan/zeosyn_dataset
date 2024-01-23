@@ -23,7 +23,7 @@ Each unique synthesis route consists of a **comprehensive set of key synthesis v
 4. [ZeoSyn dataset](/dataset/ZEOSYN.xlsx)
 5. [Setup and installation](#setup-and-installation) (use of Google Colab is encouraged)
 
-**Note:** The above Google Colab notebooks **work best on Chrome**
+**⚠️Note:** The above Google Colab notebooks **work best on Chrome**
 
 ### Overview of ZeoSyn dataset
 ![Alt text](/figures/overview.png "overview")
