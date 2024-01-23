@@ -104,7 +104,7 @@ make sure the `zeosyn` is the environment under dropdown menu `Kernel` > `Change
 A demo of loading and accessing key components of the ZeoSyn data can be found in `demo.ipynb`
 
 ## Reproducibility
-The data can be found in `/datasets` directory:
+The data can be found in `datasets/` directory:
 
 * **[`ZEOSYN.xlsx`](/dataset/ZEOSYN.xlsx): ZeoSyn dataset**
 * [`osda_descriptors.csv`](/dataset/osda_descriptors.csv): Descriptors of organic structure-directing agents
@@ -112,7 +112,7 @@ The data can be found in `/datasets` directory:
 
 All visualizations, model training and SHAP analysis in the paper can be reproduced by running the code in the following: 
 
-* [`visualization.ipynb`](/visualization.ipynbv) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yUN0HfLVGgvQfThnRSFJjWw1Xwyncg0s?usp=sharing): For visualizations of the ZeoSyn dataset
+* [`visualization.ipynb`](/visualization.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yUN0HfLVGgvQfThnRSFJjWw1Xwyncg0s?usp=sharing): For visualizations of the ZeoSyn dataset
 * [`classifier.ipynb`](/classifier.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1vKvWxqcP0Cs4CxCqDcL1TQwp8EJYw1PZ?usp=sharing): SHAP of zeolite phase predictor model
 
 (OPTIONAL) Computation of SHAP values takes a while (~2 hours to run on 32 CPU cores). To avoid computation of SHAP, you can choose to download and load the precomputed SHAP values:
