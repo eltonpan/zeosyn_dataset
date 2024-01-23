@@ -100,9 +100,6 @@ Run the following terminal commands
 
 make sure the `zeosyn` is the environment under dropdown menu `Kernel` > `Change kernel`
 
-## Getting started
-A demo of loading and accessing key components of the ZeoSyn data can be found in `demo.ipynb`
-
 ## Reproducibility
 The data can be found in `datasets/` directory:
 
