@@ -17,9 +17,9 @@ Each unique synthesis route consists of a **comprehensive set of key synthesis v
 
 ### Quick links:
 
-1. [Demo notebook](/demo.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1pIdzgTtcXFj7JGqIAyhQLl41j4ksE11E?usp=sharing)
-2. [ZeoSyn dataset visualization](/visualization.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yUN0HfLVGgvQfThnRSFJjWw1Xwyncg0s?usp=sharing)
-3. [Zeolite classifier + SHAP analysis](/classifier.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1vKvWxqcP0Cs4CxCqDcL1TQwp8EJYw1PZ?usp=sharing)
+1. [Demo notebook](/demo.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1pIdzgTtcXFj7JGqIAyhQLl41j4ksE11E?usp=sharing) (< 3 min)
+2. [ZeoSyn dataset visualization](/visualization.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yUN0HfLVGgvQfThnRSFJjWw1Xwyncg0s?usp=sharing) (~10 min)
+3. [Zeolite classifier + SHAP analysis](/classifier.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1vKvWxqcP0Cs4CxCqDcL1TQwp8EJYw1PZ?usp=sharing) (~15 min)
 4. [ZeoSyn dataset](/dataset/ZEOSYN.xlsx)
 5. [Setup and installation](#setup-and-installation) (use of Google Colab is encouraged)
 
