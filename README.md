@@ -22,6 +22,7 @@ Each unique synthesis route consists of a **comprehensive set of key synthesis v
 3. [Zeolite classifier + SHAP analysis](/classifier.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1vKvWxqcP0Cs4CxCqDcL1TQwp8EJYw1PZ?usp=sharing) (~15 min, deeper dive into zeolite classifier + SHAP for frameworks, building units, competing phases and intergrowths)
 4. [ZeoSyn dataset](/dataset/ZEOSYN.xlsx)
 5. [Setup and installation](#setup-and-installation) (use of Google Colab is encouraged)
+**Note:** The above Google Colab notebooks **work best on Chrome**
 
 ### Overview of ZeoSyn dataset
 ![Alt text](/figures/overview.png "overview")
@@ -133,5 +134,5 @@ If you use this dataset or code, please cite this paper:
 - [ ] Test conda installation on Mac and Windows
 - [x] Check OSDA and zeolite descriptors have any redundant/data
 - [ ] Add Bibtex
-- [ ] Add Colab notebook option
+- [x] Add Colab notebook option
 - [ ] Add citation sticker
