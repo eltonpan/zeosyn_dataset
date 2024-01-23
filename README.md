@@ -18,7 +18,7 @@ Each unique synthesis route consists of a **comprehensive set of key synthesis v
 ### Quick links:
 
 1. [ZeoSyn dataset visualization](/visualization.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yUN0HfLVGgvQfThnRSFJjWw1Xwyncg0s?usp=sharing)
-2. [Zeolite classifier + SHAP analysis](/classifier.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+2. [Zeolite classifier + SHAP analysis](/classifier.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1vKvWxqcP0Cs4CxCqDcL1TQwp8EJYw1PZ?usp=sharing)
 3. [ZeoSyn dataset](/dataset/ZEOSYN.xlsx)
 4. [Setup and installation](#setup-and-installation) (use of Google Colab is encouraged)
 
