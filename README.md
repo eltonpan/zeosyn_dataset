@@ -112,7 +112,7 @@ All visualizations, model training and SHAP analysis in the paper can be reprodu
 * [`visualization.ipynb`](/visualization.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yUN0HfLVGgvQfThnRSFJjWw1Xwyncg0s?usp=sharing): For visualizations of the ZeoSyn dataset
 * [`classifier.ipynb`](/classifier.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1vKvWxqcP0Cs4CxCqDcL1TQwp8EJYw1PZ?usp=sharing): SHAP of zeolite phase predictor model
 
-(OPTIONAL) Computation of SHAP values takes a while (~2 hours to run on 32 CPU cores). To avoid computation of SHAP, you can choose to download and load the precomputed SHAP values:
+**If you are not using Colab:** Computation of SHAP values takes a while (~2 hours to run on 32 CPU cores). To avoid computation of SHAP, you can choose to download and load the precomputed SHAP values:
 1. Download `shap_values.pkl` from [here](https://figshare.com/s/5519f7668ff2f631f47f)
 2. Place `shap_values.pkl` in `shap/` directory
 3. Make sure the following block in `classifier.ipynb` is uncommented
