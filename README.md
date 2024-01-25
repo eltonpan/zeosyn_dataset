@@ -79,7 +79,7 @@ Run the following terminal commands
   cd zeosyn_dataset
 ```
 ```bash
-  conda env create -f env.yml
+  conda env create -f env/env.yml
 ```
 ```bash
   conda activate zeosyn
