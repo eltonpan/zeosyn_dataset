@@ -24,7 +24,7 @@ Please refer to our [Demo notebook](/demo.ipynb) [![Open In Colab](https://colab
 
 ## Dataset visualizations
 
-### Overview of ZeoSyn dataset
+### Overview
 ![Alt text](/figures/overview.png "overview")
 **(a)** Example of a zeolite synthesis route in the
 dataset, consisting of the gel composition, inorganic precursors, reaction conditions, organic
@@ -34,13 +34,13 @@ present in the dataset. The values correspond to the log number of synthetic rou
 specific element. **(c)** Total number of synthesis routes of small, medium, large, and extra-large pore zeolites extracted from literature across time in the dataset. Distributions of key gel composition variables in the dataset, including ratio between **(d)** heteroatoms, and **(e)**
 mineralizing agents, metal cations and OSDA ratios (T = ∑i ni where ni is the amount of the ith heteroatom present in synthesis).
 
-### Zeolite frameworks in the dataset
+### Zeolite frameworks
 ![Alt text](/figures/zeo_distribution_by_zeotype_pore.png "frameworks")
 Zeolite frameworks can be divided into different categories based on their maximum ring
 size. ZeoSyn contains 5250, 5494, 5769, and 716 synthesis routes for small (8MR), medium
 (10MR), large (12MR), and extra-large pore (>12MR) zeolites, respectively.
 
-### Organic structure-directing agents in the dataset
+### Organic structure-directing agents
 ![Alt text](/figures/osda_hierarchy.png "osda")
 **(a)** Hierarchical clustering of the top 50 most frequent OSDAs in the dataset,
 labled with the main classes of molecular structures. Splits are obtained through agglomer-
@@ -50,7 +50,7 @@ OSDA (purple). The concomitant intensities of the colors show a positive correla
 OSDA volume. Red points refer to high asphericity, which account for outliers **(c)** Positive
 correlation between zeolite ring size vs. OSDA volume.
 
-### SHAP analysis of ZeoSyn reveals synthesis parameters that favor the formation of specific zeolite frameworks and their composite building units
+### SHAP analysis reveals synthesis parameters that favor the formation of specific zeolite frameworks and their composite building units
 ![Alt text](/figures/SHAP_zeolite_cbu.png "shap")
 **(a)** Framework-level SHAP analysis revealing the top 10 (out of 43) most important
 synthesis parameters favoring the formation of specific frameworks. Each framework belongs
