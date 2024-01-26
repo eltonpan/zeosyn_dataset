@@ -21,13 +21,6 @@ Please refer to our [Demo notebook](/demo.ipynb) [![Open In Colab](https://colab
 
 **⚠️Note:** We strongly recommend running the Google Colab notebooks on the **Chrome** browser
 
-### Resources:
-
-1. [ZeoSyn dataset visualization](/visualization.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yUN0HfLVGgvQfThnRSFJjWw1Xwyncg0s?usp=sharing) (~10 min, in-depth visualization of dataset)
-2. [Zeolite classifier + SHAP analysis](/classifier.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1vKvWxqcP0Cs4CxCqDcL1TQwp8EJYw1PZ?usp=sharing) (~15 min, deeper dive into zeolite classifier + SHAP for frameworks, building units, competing phases and intergrowths)
-3. [ZeoSyn dataset](/dataset/ZEOSYN.xlsx)
-4. [Setup and installation](#setup-and-installation) (use of Google Colab is encouraged)
-
 
 ### Overview of ZeoSyn dataset
 ![Alt text](/figures/overview.png "overview")
@@ -104,17 +97,20 @@ Run the following terminal commands
 
 make sure the `zeosyn` is the environment under dropdown menu `Kernel` > `Change kernel`
 
-## Reproducibility
+### Code reproducibility
+
 The data can be found in `datasets/` directory:
 
-* **[`ZEOSYN.xlsx`](/dataset/ZEOSYN.xlsx): ZeoSyn dataset**
+* [`ZEOSYN.xlsx`](/dataset/ZEOSYN.xlsx): ZeoSyn dataset
 * [`osda_descriptors.csv`](/dataset/osda_descriptors.csv): Descriptors of organic structure-directing agents
 * [`zeolite_descriptors.csv`](/dataset/zeolite_descriptors.csv): Descriptors of zeolite frameworks
 
 All visualizations, model training and SHAP analysis in the paper can be reproduced by running the code in the following: 
 
-* [`visualization.ipynb`](/visualization.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yUN0HfLVGgvQfThnRSFJjWw1Xwyncg0s?usp=sharing): For visualizations of the ZeoSyn dataset
-* [`classifier.ipynb`](/classifier.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1vKvWxqcP0Cs4CxCqDcL1TQwp8EJYw1PZ?usp=sharing): SHAP of zeolite phase predictor model
+### Resources:
+
+* [visualization.ipynb](/visualization.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yUN0HfLVGgvQfThnRSFJjWw1Xwyncg0s?usp=sharing) (~10 min, in-depth visualization of dataset)
+* [classifier.ipynb](/classifier.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1vKvWxqcP0Cs4CxCqDcL1TQwp8EJYw1PZ?usp=sharing) (~15 min, deeper dive into zeolite classifier + SHAP for frameworks, building units, competing phases and intergrowths)
 
 **If you are not using Colab:** Computation of SHAP values takes a while (~2 hours to run on 32 CPU cores). To avoid computation of SHAP, you can choose to download and load the precomputed SHAP values:
 1. Download `shap_values.pkl` from [here](https://figshare.com/s/5519f7668ff2f631f47f)
