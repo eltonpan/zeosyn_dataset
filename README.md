@@ -15,7 +15,7 @@ Each unique synthesis route consists of a **comprehensive set of key synthesis v
 3. Organic structure-directing agent (SMILES)
 4. Resultant zeolite product (3-letter IZA code)
 
-### Demo:
+## Demo:
 
 Please refer to our [Demo notebook](/demo.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1pIdzgTtcXFj7JGqIAyhQLl41j4ksE11E?usp=sharing) for a gentle introduction (< 3 min 🎉) on the key components of dataset + SHAP for frameworks and building units
 
@@ -97,7 +97,7 @@ Run the following terminal commands
 
 make sure the `zeosyn` is the environment under dropdown menu `Kernel` > `Change kernel`
 
-### Code reproducibility
+## Code reproducibility
 
 The data can be found in `datasets/` directory:
 
@@ -125,7 +125,7 @@ If you use this dataset or code, please cite this paper:
 <INSERT BIBTEX HERE>
 ```
 
-### To-do:
+## To-do:
 - [ ] Test conda installation on Mac and Windows
 - [x] Check OSDA and zeolite descriptors have any redundant/data
 - [ ] Add Bibtex
