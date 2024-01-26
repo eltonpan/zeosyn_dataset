@@ -17,7 +17,7 @@ Each unique synthesis route consists of a **comprehensive set of key synthesis v
 
 ## Demo
 
-Please refer to our [Demo notebook](/demo.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1pIdzgTtcXFj7JGqIAyhQLl41j4ksE11E?usp=sharing) for a gentle introduction (< 3 min 🎉) on the key components of dataset + SHAP for frameworks and building units
+We highly encourage you to check out our [Demo notebook](/demo.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1pIdzgTtcXFj7JGqIAyhQLl41j4ksE11E?usp=sharing) for a gentle introduction (< 3 min 🎉) on the key components of dataset + SHAP for frameworks and building units!
 
 **⚠️Note:** We strongly recommend running the Google Colab notebooks on the **Chrome** browser
 
