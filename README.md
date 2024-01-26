@@ -22,6 +22,8 @@ Please refer to our [Demo notebook](/demo.ipynb) [![Open In Colab](https://colab
 **⚠️Note:** We strongly recommend running the Google Colab notebooks on the **Chrome** browser
 
 
+## Dataset visualizations
+
 ### Overview of ZeoSyn dataset
 ![Alt text](/figures/overview.png "overview")
 **(a)** Example of a zeolite synthesis route in the
