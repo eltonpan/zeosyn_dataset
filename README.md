@@ -106,9 +106,6 @@ The data can be found in `datasets/` directory:
 * [`zeolite_descriptors.csv`](/dataset/zeolite_descriptors.csv): Descriptors of zeolite frameworks
 
 All visualizations, model training and SHAP analysis in the paper can be reproduced by running the code in the following: 
-
-### Resources:
-
 * [visualization.ipynb](/visualization.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yUN0HfLVGgvQfThnRSFJjWw1Xwyncg0s?usp=sharing) (~10 min, in-depth visualization of dataset)
 * [classifier.ipynb](/classifier.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1vKvWxqcP0Cs4CxCqDcL1TQwp8EJYw1PZ?usp=sharing) (~15 min, deeper dive into zeolite classifier + SHAP for frameworks, building units, competing phases and intergrowths)
 
