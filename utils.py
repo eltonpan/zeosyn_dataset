@@ -408,7 +408,7 @@ X_cols = {
          'osda1_pmi1_mean_0': 'OSDA PMI 1',
          'osda1_pmi2_mean_0': 'OSDA PMI 2',
          'osda1_pmi3_mean_0': 'OSDA PMI 3',
-         'osda1_spherocity_index_mean_0': 'OSDA spherocity',
+         'osda1_spherocity_index_mean_0': 'OSDA sphericity',
          'osda1_volume_mean_0': 'OSDA volume',
 }
 
