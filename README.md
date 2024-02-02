@@ -101,7 +101,7 @@ make sure the `zeosyn` is the environment under dropdown menu `Kernel` > `Change
 
 ## Code reproducibility
 
-The data can be found in `datasets/` directory:
+All data required to reproduce results in the paper can be found in `datasets/` directory:
 
 * [`ZEOSYN.xlsx`](/dataset/ZEOSYN.xlsx): ZeoSyn dataset
 * [`osda_descriptors.csv`](/dataset/osda_descriptors.csv): Descriptors of organic structure-directing agents
