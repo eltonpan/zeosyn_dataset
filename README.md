@@ -5,7 +5,7 @@ Elton Pan,† Soonhyoung Kwon,‡ Zach Jensen,† Mingrou Xie,‡ Rafael Gomez-B
 † MIT Materials Science & Engineering, ‡ MIT Chemical Engineering, ¶ ITQ-UPV
 
 <p align="center">
-  <img src="/figures/TOC.png" width="600"/> 
+  <img src="/figures/TOC.jpg" width="600"/> 
 </p>
 
 **ZeoSyn** is a large **zeolite synthesis dataset** comprising **23,961 zeolite synthesis routes**, 233 zeolite topologies and 921 organic structure-directing agents (OSDAs).
@@ -25,7 +25,7 @@ We highly encourage you to check out our [Demo notebook](/demo.ipynb) [![Open In
 ## Dataset visualizations
 
 ### Overview
-![Alt text](/figures/overview.png "overview")
+![Alt text](/figures/overview.jpg "overview")
 **(a)** Example of a zeolite synthesis route in the
 dataset, consisting of the gel composition, inorganic precursors, reaction conditions, organic
 structure-directing agent (OSDA), and the resultant zeolite framework. Paper metadata of
@@ -41,7 +41,7 @@ size. ZeoSyn contains 5250, 5494, 5769, and 716 synthesis routes for small (8MR)
 (10MR), large (12MR), and extra-large pore (>12MR) zeolites, respectively.
 
 ### Organic structure-directing agents
-![Alt text](/figures/osda_hierarchy.png "osda")
+![Alt text](/figures/osda_hierarchy.jpg "osda")
 **(a)** Hierarchical clustering of the top 50 most frequent OSDAs in the dataset,
 labled with the main classes of molecular structures. Splits are obtained through agglomer-
 ative hierarchical clustering of OSDA Morgan fingerprints. Each OSDA is colored by its
@@ -51,7 +51,7 @@ OSDA volume. Red points refer to high asphericity, which account for outliers **
 correlation between zeolite ring size vs. OSDA volume.
 
 ### SHAP analysis reveals synthesis parameters that favor the formation of specific zeolite frameworks and their composite building units
-![Alt text](/figures/SHAP_zeolite_cbu.png "shap")
+![Alt text](/figures/SHAP_zeolite_cbu.jpg "shap")
 **(a)** Framework-level SHAP analysis revealing the top 10 (out of 43) most important
 synthesis parameters favoring the formation of specific frameworks. Each framework belongs
 to 1 out of 3 types of synthesis based on its top synthesis parameters: 1) Gel-dominated synthesis (CAN, KFI) where most top parameters are inorganic-related, 2) OSDA-dominated
