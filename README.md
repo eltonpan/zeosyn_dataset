@@ -9,7 +9,7 @@ Elton Pan,† Soonhyoung Kwon,‡ Zach Jensen,† Mingrou Xie,‡ Rafael Gomez-B
 </p>
 
 **ZeoSyn** is a large **zeolite synthesis dataset** comprising **23,961 zeolite synthesis routes**, 233 zeolite topologies and 921 organic structure-directing agents (OSDAs).
-Each unique synthesis route consists of a **comprehensive set of key synthesis variables**:
+Each unique synthesis route consists of a **comprehensive set of key synthesis parameters**:
 1. Gel compositions (molar ratios between heteroatoms, mineralizing agents, and water)
 2. Reaction conditions (crystallization/aging temperature and time)
 3. Organic structure-directing agent (SMILES)
