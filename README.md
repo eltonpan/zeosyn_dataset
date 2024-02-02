@@ -5,7 +5,7 @@ Elton Pan,† Soonhyoung Kwon,‡ Zach Jensen,† Mingrou Xie,‡ Rafael Gomez-B
 † MIT Materials Science & Engineering, ‡ MIT Chemical Engineering, ¶ ITQ-UPV
 
 <p align="center">
-  <img src="/figures/TOC.jpg" width="600"/> 
+  <img src="/figures/TOC.png" width="600"/> 
 </p>
 
 **ZeoSyn** is a large **zeolite synthesis dataset** comprising **23,961 zeolite synthesis routes**, 233 zeolite topologies and 921 organic structure-directing agents (OSDAs).
