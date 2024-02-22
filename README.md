@@ -128,7 +128,7 @@ If you use this dataset or code, please cite this paper:
 ```
 
 ## To-do:
-- [ ] Test conda installation on Mac and Windows
+- [ ] Test conda installation on non-Linux systems
 - [x] Check OSDA and zeolite descriptors have any redundant/data
 - [ ] Add Bibtex
 - [x] Add Colab notebook option
