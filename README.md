@@ -22,7 +22,7 @@ We highly encourage you to check out our [Demo notebook](/demo.ipynb) [![Open In
 **⚠️Note:** We strongly recommend the **Chrome** browser for the Google Colab notebooks
 
 
-## Dataset visualizations
+## The ZeoSyn Dataset
 
 ### Overview
 ![Alt text](/figures/overview.jpg "overview")
