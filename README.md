@@ -15,14 +15,14 @@ Each unique synthesis route consists of a **comprehensive set of key synthesis p
 3. Organic structure-directing agent (SMILES)
 4. Resultant zeolite product (3-letter IZA code)
 
-## Quick Demo
+## Quick demo
 
 We highly encourage you to check out our **[Demo notebook](/demo.ipynb)** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1pIdzgTtcXFj7JGqIAyhQLl41j4ksE11E?usp=sharing) for a gentle introduction (< 3 min 🎉) on the key components of dataset + SHAP for frameworks and building units.
 
 **⚠️Note:** We strongly recommend the **Chrome** browser for the Google Colab notebooks
 
 
-## The ZeoSyn Dataset
+## The ZeoSyn dataset
 
 ### Overview
 ![Alt text](/figures/overview.jpg "overview")
