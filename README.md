@@ -5,7 +5,7 @@ Elton Pan,† Soonhyoung Kwon,‡ Zach Jensen,† Mingrou Xie,‡ Rafael Gomez-B
 † MIT Materials Science & Engineering, ‡ MIT Chemical Engineering, ¶ ITQ-UPV
 
 <p align="center">
-  <img src="/figures/TOC.png" width="600"/> 
+  <img src="/figures/toc.jpg" width="600"/> 
 </p>
 
 **ZeoSyn** is a large **zeolite synthesis dataset** comprising **23,961 zeolite synthesis routes**, 233 zeolite topologies and 921 organic structure-directing agents (OSDAs), published in our [ACS *Central Science* paper](https://doi.org/10.1021/acscentsci.3c01615).
@@ -25,7 +25,7 @@ We highly encourage you to check out our **[Demo notebook](/demo.ipynb)** [![Ope
 ## The ZeoSyn dataset
 
 ### Overview
-![Alt text](/figures/overview.jpg "overview")
+![Alt text](/figures/figure1.jpg "overview")
 **(a)** Example of a zeolite synthesis route in the
 dataset, consisting of the gel composition, inorganic precursors, reaction conditions, organic
 structure-directing agent (OSDA), and the resultant zeolite framework. Paper metadata of
@@ -51,7 +51,7 @@ OSDA volume. Red points refer to high asphericity, which account for outliers **
 correlation between zeolite ring size vs. OSDA volume.
 
 ### SHAP analysis reveals synthesis parameters that favor the formation of specific zeolite frameworks and their composite building units
-![Alt text](/figures/SHAP_zeolite_cbu.jpg "shap")
+![Alt text](/figures/figure4.jpg "shap")
 **(a)** Framework-level SHAP analysis revealing the top 10 (out of 43) most important
 synthesis parameters favoring the formation of specific frameworks. Each framework belongs
 to 1 out of 3 types of synthesis based on its top synthesis parameters: 1) Gel-dominated synthesis (CAN, KFI) where most top parameters are inorganic-related, 2) OSDA-dominated
@@ -132,4 +132,3 @@ If you use this dataset or code, please cite this paper:
 - [x] Check OSDA and zeolite descriptors have any redundant/data
 - [ ] Add Bibtex
 - [x] Add Colab notebook option
-- [ ] Add citation sticker
