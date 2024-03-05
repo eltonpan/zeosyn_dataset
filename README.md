@@ -131,6 +131,9 @@ If you use this dataset or code, please cite this paper:
 <INSERT BIBTEX HERE>
 ```
 
+## Contact
+If you have any questions, please contact us at [elsao@mit.edu](elsao@mit.edu).
+
 ## To-do:
 - [ ] Test conda installation on non-Linux systems
 - [x] Check OSDA and zeolite descriptors have any redundant/data
