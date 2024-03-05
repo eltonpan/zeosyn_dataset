@@ -1,5 +1,9 @@
 # ZeoSyn: A Comprehensive Zeolite Synthesis Dataset Enabling Machine-learning Rationalization of Hydrothermal Parameters
 
+This is the official repository of
+
+[ZeoSyn: A Comprehensive Zeolite Synthesis Dataset Enabling Machine-learning Rationalization of Hydrothermal Parameters](https://doi.org/10.1021/acscentsci.3c01615) (ACS *Central Science*)
+
 Elton Pan,† Soonhyoung Kwon,‡ Zach Jensen,† Mingrou Xie,‡ Rafael Gomez-Bombarelli,† Manuel Moliner,¶ Yuriy Roman,‡ and Elsa Olivetti∗,†
 
 † MIT Materials Science & Engineering, ‡ MIT Chemical Engineering, ¶ ITQ-UPV
@@ -8,7 +12,7 @@ Elton Pan,† Soonhyoung Kwon,‡ Zach Jensen,† Mingrou Xie,‡ Rafael Gomez-B
   <img src="/figures/TOC.png" width="600"/> 
 </p>
 
-**ZeoSyn** is a large **zeolite synthesis dataset** comprising **23,961 zeolite synthesis routes**, 233 zeolite topologies and 921 organic structure-directing agents (OSDAs), published in our [ACS *Central Science* paper](https://doi.org/10.1021/acscentsci.3c01615).
+**ZeoSyn** is a large **zeolite synthesis dataset** comprising **23,961 zeolite synthesis routes**, 233 zeolite topologies and 921 organic structure-directing agents (OSDAs).
 Each unique synthesis route consists of a **comprehensive set of key synthesis parameters**:
 1. Gel compositions (molar ratios between heteroatoms, mineralizing agents, and water)
 2. Reaction conditions (crystallization/aging temperature and time)
