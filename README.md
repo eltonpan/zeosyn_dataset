@@ -2,7 +2,7 @@
 
 This is the official repository of
 
-[ZeoSyn: A Comprehensive Zeolite Synthesis Dataset Enabling Machine-learning Rationalization of Hydrothermal Parameters](https://doi.org/10.1021/acscentsci.3c01615) **(ACS *Central Science*)**
+[**ZeoSyn: A Comprehensive Zeolite Synthesis Dataset Enabling Machine-learning Rationalization of Hydrothermal Parameters**](https://doi.org/10.1021/acscentsci.3c01615) **(ACS *Central Science*)**
 
 Elton Pan,† Soonhyoung Kwon,‡ Zach Jensen,† Mingrou Xie,‡ Rafael Gomez-Bombarelli,† Manuel Moliner,¶ Yuriy Roman,‡ and Elsa Olivetti∗,†
 
