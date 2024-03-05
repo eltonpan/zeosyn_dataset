@@ -19,16 +19,16 @@ Each unique synthesis route consists of a **comprehensive set of key synthesis p
 3. Organic structure-directing agent (SMILES)
 4. Resultant zeolite product (3-letter IZA code)
 
-## Quick demo
+## 1) Quick demo
 
 We highly encourage you to check out our **[Demo notebook](/demo.ipynb)** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1pIdzgTtcXFj7JGqIAyhQLl41j4ksE11E?usp=sharing) for a gentle introduction (**< 3 min** 🎉) on the key components of dataset + SHAP for frameworks and building units.
 
 **⚠️Note:** We strongly recommend the **Chrome** browser for the Google Colab notebooks
 
 
-## The ZeoSyn dataset
+## 2) The ZeoSyn dataset
 
-### Overview
+### A) Overview
 ![Alt text](/figures/figure1.jpg "overview")
 **(a)** Example of a zeolite synthesis route in the
 dataset, consisting of the gel composition, inorganic precursors, reaction conditions, organic
@@ -38,13 +38,13 @@ present in the dataset. The values correspond to the log number of synthetic rou
 specific element. **(c)** Total number of synthesis routes of small, medium, large, and extra-large pore zeolites extracted from literature across time in the dataset. Distributions of key gel composition variables in the dataset, including ratio between **(d)** heteroatoms, and **(e)**
 mineralizing agents, metal cations and OSDA ratios (T = ∑i ni where ni is the amount of the ith heteroatom present in synthesis).
 
-### Zeolite frameworks
+### B) Zeolite frameworks
 ![Alt text](/figures/zeo_distribution_by_zeotype_pore.png "frameworks")
 Zeolite frameworks can be divided into different categories based on their maximum ring
 size. ZeoSyn contains 5250, 5494, 5769, and 716 synthesis routes for small (8MR), medium
 (10MR), large (12MR), and extra-large pore (>12MR) zeolites, respectively.
 
-### Organic structure-directing agents
+### C) Organic structure-directing agents
 ![Alt text](/figures/osda_hierarchy.jpg "osda")
 **(a)** Hierarchical clustering of the top 50 most frequent OSDAs in the dataset,
 labled with the main classes of molecular structures. Splits are obtained through agglomer-
@@ -54,7 +54,7 @@ OSDA (purple). The concomitant intensities of the colors show a positive correla
 OSDA volume. Red points refer to high asphericity, which account for outliers **(c)** Positive
 correlation between zeolite ring size vs. OSDA volume.
 
-### SHAP analysis reveals key zeolite structure-synthesis relationships
+### D) SHAP analysis reveals key zeolite structure-synthesis relationships
 ![Alt text](/figures/figure4.jpg "shap")
 **(a)** Framework-level SHAP analysis revealing the top 10 (out of 43) most important
 synthesis parameters favoring the formation of specific frameworks. Each framework belongs
@@ -65,7 +65,7 @@ Every point is an individual synthesis colored by the value of synthesis paramet
 and blue colors indicate high and low values, respectively). **(b)** CBU-level SHAP analysis
 of large CBUs showing OSDA parameters favoring their formation.
 
-## Setup and installation
+## 3) Setup and installation
 
 The code in this repo has been tested on a Linux machine running Python 3.8.8
 
@@ -103,7 +103,7 @@ Run the following terminal commands
 
 make sure the `zeosyn` is the environment under dropdown menu `Kernel` > `Change kernel`
 
-## Code reproducibility
+## 4) Code reproducibility
 
 All data required to reproduce results in the paper can be found in `datasets/` directory:
 
@@ -125,13 +125,13 @@ All visualizations, model training and SHAP analysis in the paper can be reprodu
   ``` 
 
 
-## Cite
+## 5) Cite
 If you use this dataset or code, please cite this paper:
 ```
 <INSERT BIBTEX HERE>
 ```
 
-## Contact
+## 6) Contact
 If you have any questions, please contact us at [elsao@mit.edu](mailto:elsao@mit.edu).
 
 ## To-do:
