@@ -54,7 +54,7 @@ OSDA (purple). The concomitant intensities of the colors show a positive correla
 OSDA volume. Red points refer to high asphericity, which account for outliers **(c)** Positive
 correlation between zeolite ring size vs. OSDA volume.
 
-### SHAP analysis reveals synthesis parameters that favor the formation of specific zeolite frameworks and their composite building units
+### SHAP analysis reveals key zeolite structure-synthesis relationships
 ![Alt text](/figures/figure4.jpg "shap")
 **(a)** Framework-level SHAP analysis revealing the top 10 (out of 43) most important
 synthesis parameters favoring the formation of specific frameworks. Each framework belongs
