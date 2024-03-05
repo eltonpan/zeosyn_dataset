@@ -132,7 +132,7 @@ If you use this dataset or code, please cite this paper:
 ```
 
 ## Contact
-If you have any questions, please contact us at [elsao@mit.edu](elsao@mit.edu).
+If you have any questions, please contact us at [elsao@mit.edu](mailto:elsao@mit.edu).
 
 ## To-do:
 - [ ] Test conda installation on non-Linux systems
