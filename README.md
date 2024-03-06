@@ -16,7 +16,6 @@ Elton Pan,† Soonhyoung Kwon,‡ Zach Jensen,† Mingrou Xie,‡ Rafael Gomez-B
 <a href="/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-green" />
 </a>
-
 <a href="https://colab.research.google.com/drive/1pIdzgTtcXFj7JGqIAyhQLl41j4ksE11E?usp=sharing">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" />
 </a>
