@@ -156,5 +156,6 @@ If you have any questions, please contact us at [elsao@mit.edu](mailto:elsao@mit
 - [ ] Test conda installation on non-Linux systems
 - [x] Check OSDA and zeolite descriptors have any redundant data
 - [x] Add Bibtex
+- [ ] Update Bibtex (after issue is out)
 - [x] Add Colab notebook option
 - [x] Add contact info
