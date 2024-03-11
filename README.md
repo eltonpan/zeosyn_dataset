@@ -140,7 +140,13 @@ All visualizations, model training and SHAP analysis in the paper can be reprodu
 ## 5) Cite
 If you use this dataset or code, please cite this paper:
 ```
-<INSERT BIBTEX HERE>
+@article{pan2024zeosyn,
+  title={ZeoSyn: A Comprehensive Zeolite Synthesis Dataset Enabling Machine-Learning Rationalization of Hydrothermal Parameters},
+  author={Pan, Elton and Kwon, Soonhyoung and Jensen, Zach and Xie, Mingrou and G{\'o}mez-Bombarelli, Rafael and Moliner, Manuel and Rom{\'a}n-Leshkov, Yuriy and Olivetti, Elsa},
+  journal={ACS Central Science},
+  year={2024},
+  publisher={ACS Publications}
+}
 ```
 
 ## 6) Contact
@@ -149,6 +155,6 @@ If you have any questions, please contact us at [elsao@mit.edu](mailto:elsao@mit
 ## To-do:
 - [ ] Test conda installation on non-Linux systems
 - [x] Check OSDA and zeolite descriptors have any redundant data
-- [ ] Add Bibtex
+- [x] Add Bibtex
 - [x] Add Colab notebook option
 - [x] Add contact info
