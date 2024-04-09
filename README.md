@@ -144,8 +144,11 @@ If you use this dataset or code, please cite this paper:
   title={ZeoSyn: A Comprehensive Zeolite Synthesis Dataset Enabling Machine-Learning Rationalization of Hydrothermal Parameters},
   author={Pan, Elton and Kwon, Soonhyoung and Jensen, Zach and Xie, Mingrou and G{\'o}mez-Bombarelli, Rafael and Moliner, Manuel and Rom{\'a}n-Leshkov, Yuriy and Olivetti, Elsa},
   journal={ACS Central Science},
+  volume={10},
+  number={3},
+  pages={729},
   year={2024},
-  publisher={ACS Publications}
+  publisher={American Chemical Society}
 }
 ```
 
@@ -156,6 +159,6 @@ If you have any questions, please contact us at [elsao@mit.edu](mailto:elsao@mit
 - [ ] Test conda installation on non-Linux systems
 - [x] Check OSDA and zeolite descriptors have any redundant data
 - [x] Add Bibtex
-- [ ] Update Bibtex (after issue is out)
+- [X] Update Bibtex (after issue is out)
 - [x] Add Colab notebook option
 - [x] Add contact info
