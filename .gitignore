@@ -1,5 +1,7 @@
 model/classifier.pkl
+model/classifier_SiAlP_ratios_low_Na.pkl
 shap/shap_values.pkl
+shap/shap_values_SiAlP_ratios_low_Na.pkl
 .ipynb_checkpoints
 other_notebooks
 __pycache__
